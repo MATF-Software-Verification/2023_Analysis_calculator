@@ -1,0 +1,43 @@
+Dr. Memory version 2.6.0 build 0 built on Sep 21 2023 17:38:58
+Windows version: WinVer=105;Rel=2009;Build=19045;Edition=Professional
+Dr. Memory results for pid 17480: "CalculatorApp.exe"
+Application cmdline: "D:\faks\master\verifikacija\projekat\git\2023_Analysis_calculator\calculator\src\x64\Debug\Calculator\CalculatorApp.exe"
+Recorded 124 suppression(s) from default D:\faks\master\verifikacija\projekat\alati\dr_memory\bin64\suppress-default.txt
+ERROR: Failed to find "main" for limiting memory dump
+
+Error #1: UNINITIALIZED READ: reading 96 byte(s)
+ntdll.dll!RcContinueExit
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+ntdll.dll!RtlUserThreadStart
+    ??:0
+
+Error #2: UNINITIALIZED READ: reading 6 byte(s)
+ntdll.dll!RcContinueExit
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+ntdll.dll!RtlUserThreadStart
+    ??:0
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+	Error #   1:      2
+	Error #   2:      3
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      2 unique,     5 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total GDI usage error(s)
+      0 unique,     0 total handle leak(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+Details: D:\faks\master\verifikacija\projekat\git\2023_Analysis_calculator\Dr Memory\drmemory_report\DrMemory-CalculatorApp.exe.17480.000\results.txt
+Code coverage raw data: D:\faks\master\verifikacija\projekat\git\2023_Analysis_calculator\Dr Memory\drmemory_report\DrMemory-CalculatorApp.exe.17480.000\drcov.CalculatorApp.exe.17480.0000.proc.log

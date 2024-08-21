@@ -1,0 +1,6502 @@
+Dr. Memory version 2.6.0 build 0 built on Sep 21 2023 17:38:58
+Dr. Memory errors that are likely to be false positives, for pid 17480: "CalculatorApp.exe"
+These errors matched the blocklist ',C:\Windows*.d??' for 4 frames.
+Run with -lib_blocklist_frames 0 to treat these as regular errors.
+If these are all false positives and your focus is unaddressable errors, consider running with -light to skip all uninitialized reads and leaks for higher performance.
+
+Potential Error #1: UNINITIALIZED READ: reading 4 byte(s)
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!LockClrVersion
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorImageUnloading
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #2: UNINITIALIZED READ: reading register eax
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!LockClrVersion
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorImageUnloading
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #3: UNINITIALIZED READ: reading register eax
+KERNELBASE.dll!BaseRegQueryValueInternal
+    ??:0
+KERNELBASE.dll!RegQueryValueExW
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!LockClrVersion
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorImageUnloading
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #4: UNINITIALIZED READ: reading 4 byte(s)
+KERNELBASE.dll!BaseRegQueryValueInternal
+    ??:0
+KERNELBASE.dll!RegQueryValueExW
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!LockClrVersion
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorImageUnloading
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #5: UNINITIALIZED READ: reading 4 byte(s)
+system call NtQueryDirectoryFileEx parameter value #6
+    <system call>
+KERNELBASE.dll!FindFirstFileExW
+    ??:0
+KERNELBASE.dll!FindFirstFileW
+    ??:0
+mscoree.dll!CorImageUnloading
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorImageUnloading
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #6: UNINITIALIZED READ: reading 4 byte(s)
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!LockClrVersion
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #7: UNINITIALIZED READ: reading register eax
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!LockClrVersion
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #8: UNINITIALIZED READ: reading register eax
+KERNELBASE.dll!BaseRegQueryValueInternal
+    ??:0
+KERNELBASE.dll!RegQueryValueExW
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!LockClrVersion
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #9: UNINITIALIZED READ: reading 4 byte(s)
+KERNELBASE.dll!BaseRegQueryValueInternal
+    ??:0
+KERNELBASE.dll!RegQueryValueExW
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!LockClrVersion
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #10: UNINITIALIZED READ: reading 4 byte(s)
+system call NtQueryDirectoryFileEx parameter value #6
+    <system call>
+KERNELBASE.dll!FindFirstFileExW
+    ??:0
+KERNELBASE.dll!FindFirstFileW
+    ??:0
+mscoree.dll!CorImageUnloading
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #11: UNINITIALIZED READ: reading 4 byte(s)
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!LockClrVersion
+    ??:0
+mscoree.dll!LockClrVersion
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #12: UNINITIALIZED READ: reading register eax
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!LockClrVersion
+    ??:0
+mscoree.dll!LockClrVersion
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #13: UNINITIALIZED READ: reading register eax
+KERNELBASE.dll!BaseRegQueryValueInternal
+    ??:0
+KERNELBASE.dll!RegQueryValueExW
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!LockClrVersion
+    ??:0
+mscoree.dll!LockClrVersion
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #14: UNINITIALIZED READ: reading 4 byte(s)
+KERNELBASE.dll!BaseRegQueryValueInternal
+    ??:0
+KERNELBASE.dll!RegQueryValueExW
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!CLRCreateInstance
+    ??:0
+mscoree.dll!LockClrVersion
+    ??:0
+mscoree.dll!LockClrVersion
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #15: UNINITIALIZED READ: reading 1 byte(s)
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoreei.dll!OnShimDllMainCalled
+    ??:0
+mscoreei.dll!OnShimDllMainCalled
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpPrepareModuleForExecution
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadDll
+    ??:0
+ntdll.dll!LdrLoadDll
+    ??:0
+
+Potential Error #16: UNINITIALIZED READ: reading 4 byte(s)
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #17: UNINITIALIZED READ: reading register eax
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #18: UNINITIALIZED READ: reading register eax
+KERNELBASE.dll!BaseRegQueryValueInternal
+    ??:0
+KERNELBASE.dll!RegQueryValueExW
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #19: UNINITIALIZED READ: reading 4 byte(s)
+KERNELBASE.dll!BaseRegQueryValueInternal
+    ??:0
+KERNELBASE.dll!RegQueryValueExW
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #20: UNINITIALIZED READ: reading 4 byte(s)
+system call NtQueryDirectoryFileEx parameter value #6
+    <system call>
+KERNELBASE.dll!FindFirstFileExW
+    ??:0
+KERNELBASE.dll!FindFirstFileW
+    ??:0
+mscoreei.dll!RegisterShimImplCallback
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #21: UNINITIALIZED READ: reading 4 byte(s)
+system call NtQueryDirectoryFileEx parameter value #6
+    <system call>
+KERNELBASE.dll!FindNextFileW 
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #22: UNINITIALIZED READ: reading register al
+KERNELBASE.dll!FindNextFileW 
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #23: UNINITIALIZED READ: reading register eax
+KERNELBASE.dll!FindNextFileW 
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #24: UNINITIALIZED READ: reading register eax
+KERNELBASE.dll!FindNextFileW 
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #25: UNINITIALIZED READ: reading 1 byte(s)
+ucrtbase_clr0400.dll!_strncnt            
+    ??:0
+ucrtbase_clr0400.dll!wmemmove_s          
+    ??:0
+ucrtbase_clr0400.dll!wmemmove_s          
+    ??:0
+ucrtbase_clr0400.dll!_p__fmode           
+    ??:0
+ucrtbase_clr0400.dll!setmbcp             
+    ??:0
+ucrtbase_clr0400.dll!_p__fmode           
+    ??:0
+ucrtbase_clr0400.dll!_p__fmode           
+    ??:0
+ucrtbase_clr0400.dll!memset              
+    ??:0
+ucrtbase_clr0400.dll!wmemmove_s          
+    ??:0
+ucrtbase_clr0400.dll!wmemmove_s          
+    ??:0
+ucrtbase_clr0400.dll!wmemmove_s          
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpPrepareModuleForExecution
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadDll
+    ??:0
+
+Potential Error #26: UNINITIALIZED READ: reading 1 byte(s)
+ucrtbase.dll!_strncnt    
+    ??:0
+ucrtbase.dll!atof        
+    ??:0
+ucrtbase.dll!atof        
+    ??:0
+ucrtbase.dll!atof        
+    ??:0
+ucrtbase.dll!fegetenv    
+    ??:0
+ucrtbase.dll!fegetenv    
+    ??:0
+ucrtbase.dll!fegetenv    
+    ??:0
+ucrtbase.dll!o__recalloc 
+    ??:0
+ucrtbase.dll!msize       
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpPrepareModuleForExecution
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadDll
+    ??:0
+ntdll.dll!LdrLoadDll
+    ??:0
+
+Potential Error #27: UNINITIALIZED READ: reading 4 byte(s)
+system call NtQueryDirectoryFileEx parameter value #6
+    <system call>
+KERNELBASE.dll!FindFirstFileExW
+    ??:0
+KERNELBASE.dll!FindFirstFileW
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #28: UNINITIALIZED READ: reading 4 byte(s)
+system call NtQueryDirectoryFileEx parameter value #6
+    <system call>
+KERNELBASE.dll!FindNextFileW 
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #29: UNINITIALIZED READ: reading register al
+KERNELBASE.dll!FindNextFileW 
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #30: UNINITIALIZED READ: reading register eax
+KERNELBASE.dll!FindNextFileW 
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #31: UNINITIALIZED READ: reading 1 byte(s)
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetPrivateContextsPerfCounters
+    ??:0
+clr.dll!GetPrivateContextsPerfCounters
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!GetPrivateContextsPerfCounters
+    ??:0
+clr.dll!GetPrivateContextsPerfCounters
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+
+Potential Error #32: UNINITIALIZED READ: reading 1 byte(s)
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+
+Potential Error #33: UNINITIALIZED READ: reading 4 byte(s)
+system call NtQueryDirectoryFileEx parameter value #6
+    <system call>
+KERNELBASE.dll!FindFirstFileExW
+    ??:0
+KERNELBASE.dll!FindFirstFileW
+    ??:0
+KERNEL32.dll!GetLongPathNameW
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #34: UNINITIALIZED READ: reading register edi
+KERNELBASE.dll!FindFirstFileExW
+    ??:0
+KERNELBASE.dll!FindFirstFileW
+    ??:0
+KERNEL32.dll!GetLongPathNameW
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #35: UNINITIALIZED READ: reading register eax
+KERNELBASE.dll!FindFirstFileExW
+    ??:0
+KERNELBASE.dll!FindFirstFileW
+    ??:0
+KERNEL32.dll!GetLongPathNameW
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #36: UNINITIALIZED READ: reading 4 byte(s)
+system call NtQueryDirectoryFileEx parameter value #6
+    <system call>
+KERNELBASE.dll!FindFirstFileExW
+    ??:0
+KERNELBASE.dll!FindFirstFileW
+    ??:0
+KERNEL32.dll!GetShortPathNameW
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #37: UNINITIALIZED READ: reading register edi
+KERNELBASE.dll!FindFirstFileExW
+    ??:0
+KERNELBASE.dll!FindFirstFileW
+    ??:0
+KERNEL32.dll!GetShortPathNameW
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #38: UNINITIALIZED READ: reading register eax
+KERNELBASE.dll!FindFirstFileExW
+    ??:0
+KERNELBASE.dll!FindFirstFileW
+    ??:0
+KERNEL32.dll!GetShortPathNameW
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #39: UNINITIALIZED READ: reading 1 byte(s)
+replace_memcmp 
+    D:\a\drmemory\drmemory\drmemory\replace.c(812):
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #40: UNINITIALIZED READ: reading 1 byte(s)
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #41: UNINITIALIZED READ: reading register r15
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #42: UNINITIALIZED READ: reading 1 byte(s)
+replace_memcmp 
+    D:\a\drmemory\drmemory\drmemory\replace.c(812):
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+
+Potential Error #43: UNINITIALIZED READ: reading 1 byte(s)
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+
+Potential Error #44: UNINITIALIZED READ: reading 4 byte(s)
+system call NtQueryDirectoryFileEx parameter value #6
+    <system call>
+KERNELBASE.dll!FindFirstFileExW
+    ??:0
+KERNELBASE.dll!FindFirstFileW
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+
+Potential Error #45: UNINITIALIZED READ: reading register al
+KERNELBASE.dll!FindFirstFileExW
+    ??:0
+KERNELBASE.dll!FindFirstFileW
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+
+Potential Error #46: UNINITIALIZED READ: reading 4 byte(s)
+system call NtQueryDirectoryFileEx parameter value #6
+    <system call>
+KERNELBASE.dll!FindNextFileW 
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+
+Potential Error #47: UNINITIALIZED READ: reading register al
+KERNELBASE.dll!FindNextFileW 
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+
+Potential Error #48: UNINITIALIZED READ: reading register eax
+KERNELBASE.dll!FindNextFileW 
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+
+Potential Error #49: UNINITIALIZED READ: reading register eax
+KERNELBASE.dll!FindNextFileW 
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+
+Potential Error #50: UNINITIALIZED READ: reading 4 byte(s)
+system call NtQueryDirectoryFileEx parameter value #6
+    <system call>
+KERNELBASE.dll!FindNextFileW 
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+
+Potential Error #51: UNINITIALIZED READ: reading register eax
+profapi.dll!?          
+    ??:0
+profapi.dll!?          
+    ??:0
+profapi.dll!?          
+    ??:0
+profapi.dll!?          
+    ??:0
+Windows.Storage.dll!SHBindToObject     
+    ??:0
+Windows.Storage.dll!SHGetKnownFolderIDList_Internal
+    ??:0
+Windows.Storage.dll!SHGetKnownFolderIDList_Internal
+    ??:0
+Windows.Storage.dll!SHGetKnownFolderIDList_Internal
+    ??:0
+Windows.Storage.dll!SHGetFolderPathW   
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+
+Potential Error #52: UNINITIALIZED READ: reading register eax
+profapi.dll!?          
+    ??:0
+profapi.dll!?          
+    ??:0
+profapi.dll!?          
+    ??:0
+profapi.dll!?          
+    ??:0
+Windows.Storage.dll!SHBindToObject     
+    ??:0
+Windows.Storage.dll!SHGetKnownFolderIDList_Internal
+    ??:0
+Windows.Storage.dll!SHGetKnownFolderIDList_Internal
+    ??:0
+Windows.Storage.dll!SHGetKnownFolderIDList_Internal
+    ??:0
+Windows.Storage.dll!SHGetFolderPathW   
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+
+Potential Error #53: UNINITIALIZED READ: reading register eax
+KERNELBASE.dll!BaseRegQueryValueInternal
+    ??:0
+KERNELBASE.dll!RegQueryValueExW
+    ??:0
+profapi.dll!?          
+    ??:0
+profapi.dll!?          
+    ??:0
+profapi.dll!?          
+    ??:0
+profapi.dll!?          
+    ??:0
+Windows.Storage.dll!SHBindToObject     
+    ??:0
+Windows.Storage.dll!SHGetKnownFolderIDList_Internal
+    ??:0
+Windows.Storage.dll!SHGetKnownFolderIDList_Internal
+    ??:0
+Windows.Storage.dll!SHGetKnownFolderIDList_Internal
+    ??:0
+Windows.Storage.dll!SHGetFolderPathW   
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+
+Potential Error #54: UNINITIALIZED READ: reading 4 byte(s)
+KERNELBASE.dll!BaseRegQueryValueInternal
+    ??:0
+KERNELBASE.dll!RegQueryValueExW
+    ??:0
+profapi.dll!?          
+    ??:0
+profapi.dll!?          
+    ??:0
+profapi.dll!?          
+    ??:0
+profapi.dll!?          
+    ??:0
+Windows.Storage.dll!SHBindToObject     
+    ??:0
+Windows.Storage.dll!SHGetKnownFolderIDList_Internal
+    ??:0
+Windows.Storage.dll!SHGetKnownFolderIDList_Internal
+    ??:0
+Windows.Storage.dll!SHGetKnownFolderIDList_Internal
+    ??:0
+Windows.Storage.dll!SHGetFolderPathW   
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+
+Potential Error #55: UNINITIALIZED READ: reading 96 byte(s)
+ntdll.dll!RcContinueExit
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+ntdll.dll!RtlpExecuteHandlerForException
+    ??:0
+ntdll.dll!RtlDispatchException
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+ntdll.dll!RtlRaiseException
+    ??:0
+ntdll.dll!RtlRaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+VCRUNTIME140_CLR0400.dll!CxxThrowException       
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+VCRUNTIME140_CLR0400.dll!_FrameUnwindFilter      
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+
+Potential Error #56: UNINITIALIZED READ: reading 6 byte(s)
+ntdll.dll!RcContinueExit
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+ntdll.dll!RtlpExecuteHandlerForException
+    ??:0
+ntdll.dll!RtlDispatchException
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+ntdll.dll!RtlRaiseException
+    ??:0
+ntdll.dll!RtlRaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+VCRUNTIME140_CLR0400.dll!CxxThrowException       
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+VCRUNTIME140_CLR0400.dll!_FrameUnwindFilter      
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+
+Potential Error #57: UNINITIALIZED READ: reading 96 byte(s)
+ntdll.dll!RcContinueExit
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+ntdll.dll!RtlpExecuteHandlerForException
+    ??:0
+ntdll.dll!RtlDispatchException
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+ntdll.dll!RtlRaiseException
+    ??:0
+ntdll.dll!RtlRaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+VCRUNTIME140_CLR0400.dll!CxxThrowException       
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+VCRUNTIME140_CLR0400.dll!_FrameUnwindFilter      
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+VCRUNTIME140_CLR0400.dll!FindAndUnlinkFrame      
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!MetaDataGetDispenser
+    ??:0
+
+Potential Error #58: UNINITIALIZED READ: reading 6 byte(s)
+ntdll.dll!RcContinueExit
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+ntdll.dll!RtlpExecuteHandlerForException
+    ??:0
+ntdll.dll!RtlDispatchException
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+ntdll.dll!RtlRaiseException
+    ??:0
+ntdll.dll!RtlRaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+VCRUNTIME140_CLR0400.dll!CxxThrowException       
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+VCRUNTIME140_CLR0400.dll!_FrameUnwindFilter      
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+VCRUNTIME140_CLR0400.dll!FindAndUnlinkFrame      
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!MetaDataGetDispenser
+    ??:0
+
+Potential Error #59: UNINITIALIZED READ: reading 96 byte(s)
+ntdll.dll!RcContinueExit
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+ntdll.dll!RtlpExecuteHandlerForException
+    ??:0
+ntdll.dll!RtlDispatchException
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+ntdll.dll!RtlRaiseException
+    ??:0
+ntdll.dll!RtlRaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+VCRUNTIME140_CLR0400.dll!CxxThrowException       
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+VCRUNTIME140_CLR0400.dll!_FrameUnwindFilter      
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+VCRUNTIME140_CLR0400.dll!FindAndUnlinkFrame      
+    ??:0
+VCRUNTIME140_CLR0400.dll!_FrameUnwindFilter      
+    ??:0
+VCRUNTIME140_CLR0400.dll!memchr                  
+    ??:0
+
+Potential Error #60: UNINITIALIZED READ: reading 6 byte(s)
+ntdll.dll!RcContinueExit
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+ntdll.dll!RtlpExecuteHandlerForException
+    ??:0
+ntdll.dll!RtlDispatchException
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+ntdll.dll!RtlRaiseException
+    ??:0
+ntdll.dll!RtlRaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+VCRUNTIME140_CLR0400.dll!CxxThrowException       
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+VCRUNTIME140_CLR0400.dll!_FrameUnwindFilter      
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+VCRUNTIME140_CLR0400.dll!FindAndUnlinkFrame      
+    ??:0
+VCRUNTIME140_CLR0400.dll!_FrameUnwindFilter      
+    ??:0
+VCRUNTIME140_CLR0400.dll!memchr                  
+    ??:0
+
+Potential Error #61: UNADDRESSABLE ACCESS beyond top of stack: reading 1 byte(s)
+ntdll.dll!_chkstk  
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+ntdll.dll!RtlpExecuteHandlerForException
+    ??:0
+ntdll.dll!RtlDispatchException
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+ntdll.dll!RtlRaiseException
+    ??:0
+ntdll.dll!RtlRaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+VCRUNTIME140_CLR0400.dll!CxxThrowException       
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+VCRUNTIME140_CLR0400.dll!_FrameUnwindFilter      
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+VCRUNTIME140_CLR0400.dll!FindAndUnlinkFrame      
+    ??:0
+VCRUNTIME140_CLR0400.dll!_FrameUnwindFilter      
+    ??:0
+VCRUNTIME140_CLR0400.dll!memchr                  
+    ??:0
+Note: 0x000000e2805f0000 refers to 4344 byte(s) beyond the top of the stack 0x000000e2805f10f8
+
+Potential Error #62: UNINITIALIZED READ: reading 96 byte(s)
+ntdll.dll!RcContinueExit
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+ntdll.dll!RtlpExecuteHandlerForException
+    ??:0
+ntdll.dll!RtlDispatchException
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+VCRUNTIME140_CLR0400.dll!_FrameUnwindFilter      
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+VCRUNTIME140_CLR0400.dll!CxxThrowException       
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+VCRUNTIME140_CLR0400.dll!_FrameUnwindFilter      
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+VCRUNTIME140_CLR0400.dll!FindAndUnlinkFrame      
+    ??:0
+VCRUNTIME140_CLR0400.dll!_FrameUnwindFilter      
+    ??:0
+VCRUNTIME140_CLR0400.dll!memchr                  
+    ??:0
+
+Potential Error #63: UNINITIALIZED READ: reading 6 byte(s)
+ntdll.dll!RcContinueExit
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+ntdll.dll!RtlpExecuteHandlerForException
+    ??:0
+ntdll.dll!RtlDispatchException
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+VCRUNTIME140_CLR0400.dll!_FrameUnwindFilter      
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+VCRUNTIME140_CLR0400.dll!CxxThrowException       
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+VCRUNTIME140_CLR0400.dll!_FrameUnwindFilter      
+    ??:0
+ntdll.dll!RcConsolidateFrames
+    ??:0
+ntdll.dll!RtlUnwindEx
+    ??:0
+VCRUNTIME140_CLR0400.dll!FindAndUnlinkFrame      
+    ??:0
+VCRUNTIME140_CLR0400.dll!_FrameUnwindFilter      
+    ??:0
+VCRUNTIME140_CLR0400.dll!memchr                  
+    ??:0
+
+Potential Error #64: UNINITIALIZED READ: reading 4 byte(s)
+system call NtAlpcCreateSecurityContext ALPC_SECURITY_ATTRIBUTES fields
+    <system call>
+RPCRT4.dll!RpcBindingFromStringBindingW
+    ??:0
+RPCRT4.dll!RpcBindingFromStringBindingW
+    ??:0
+RPCRT4.dll!RpcBindingFromStringBindingW
+    ??:0
+RPCRT4.dll!Ndr64AsyncServerCallAll
+    ??:0
+RPCRT4.dll!NdrClientCall3
+    ??:0
+ADVAPI32.dll!ElfRegisterEventSourceW
+    ??:0
+ADVAPI32.dll!RegisterEventSourceW
+    ??:0
+clr.dll!PostErrorVA
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+ntdll.dll!RtlpExecuteHandlerForException
+    ??:0
+ntdll.dll!RtlDispatchException
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+
+Potential Error #65: UNINITIALIZED READ: reading 4 byte(s)
+system call NtAlpcCreateSecurityContext ALPC_SECURITY_ATTRIBUTES fields
+    <system call>
+RPCRT4.dll!RpcBindingFromStringBindingW
+    ??:0
+RPCRT4.dll!I_RpcParseSecurity
+    ??:0
+RPCRT4.dll!I_RpcParseSecurity
+    ??:0
+RPCRT4.dll!I_RpcBindingInqClientTokenAttributes
+    ??:0
+RPCRT4.dll!NdrConformantStringUnmarshall
+    ??:0
+RPCRT4.dll!Ndr64AsyncServerCallAll
+    ??:0
+RPCRT4.dll!Ndr64AsyncServerCallAll
+    ??:0
+RPCRT4.dll!NdrClientCall3
+    ??:0
+ADVAPI32.dll!ElfRegisterEventSourceW
+    ??:0
+ADVAPI32.dll!RegisterEventSourceW
+    ??:0
+clr.dll!PostErrorVA
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+ntdll.dll!RtlpExecuteHandlerForException
+    ??:0
+ntdll.dll!RtlDispatchException
+    ??:0
+
+Potential Error #66: UNINITIALIZED READ: reading register eax
+KERNELBASE.dll!WideCharToMultiByte
+    ??:0
+clr.dll!CorExeMain2
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+ntdll.dll!RtlpExecuteHandlerForException
+    ??:0
+ntdll.dll!RtlDispatchException
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!MetaDataGetDispenser
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+
+Potential Error #67: UNINITIALIZED READ: reading register ecx
+KERNELBASE.dll!WideCharToMultiByte
+    ??:0
+clr.dll!CorExeMain2
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+ntdll.dll!RtlpExecuteHandlerForException
+    ??:0
+ntdll.dll!RtlDispatchException
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!MetaDataGetDispenser
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+
+Potential Error #68: UNINITIALIZED READ: reading register esi
+KERNELBASE.dll!WideCharToMultiByte
+    ??:0
+clr.dll!CorExeMain2
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+ntdll.dll!RtlpExecuteHandlerForException
+    ??:0
+ntdll.dll!RtlDispatchException
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+KERNELBASE.dll!RaiseException
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!MetaDataGetDispenser
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+
+Potential Error #69: UNINITIALIZED READ: reading 4 byte(s)
+system call NtQueryWnfStateNameInformation parameter value #4
+    <system call>
+ntdll.dll!SignalStartWerSvc
+    ??:0
+ntdll.dll!SendMessageToWERService
+    ??:0
+ntdll.dll!ReportExceptionInternal
+    ??:0
+KERNEL32.dll!WerpReportFaultInternal
+    ??:0
+KERNEL32.dll!WerpReportFault
+    ??:0
+KERNELBASE.dll!UnhandledExceptionFilter
+    ??:0
+ntdll.dll!RtlUserThreadStart$filt$0
+    ??:0
+ntdll.dll!_C_specific_handler
+    ??:0
+ntdll.dll!RtlpExecuteHandlerForException
+    ??:0
+ntdll.dll!RtlDispatchException
+    ??:0
+ntdll.dll!RtlUserThreadStart
+    ??:0
+
+Potential Error #70: POSSIBLE LEAK 24 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+ntdll.dll!LdrpHandleTlsData
+    ??:0
+ntdll.dll!LdrpDoPostSnapWork
+    ??:0
+ntdll.dll!LdrpSnapModule
+    ??:0
+ntdll.dll!LdrpProcessWork
+    ??:0
+ntdll.dll!LdrpDrainWorkQueue
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadDll
+    ??:0
+ntdll.dll!LdrLoadDll
+    ??:0
+KERNELBASE.dll!LoadLibraryExW
+    ??:0
+KERNELBASE.dll!LoadLibraryExA
+    ??:0
+mscoree.dll!CorImageUnloading
+    ??:0
+
+Potential Error #71: POSSIBLE LEAK 80 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+ntdll.dll!LdrpGetNewTlsVector
+    ??:0
+ntdll.dll!LdrpHandleTlsData
+    ??:0
+ntdll.dll!LdrpDoPostSnapWork
+    ??:0
+ntdll.dll!LdrpSnapModule
+    ??:0
+ntdll.dll!LdrpProcessWork
+    ??:0
+ntdll.dll!LdrpDrainWorkQueue
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadDll
+    ??:0
+ntdll.dll!LdrLoadDll
+    ??:0
+KERNELBASE.dll!LoadLibraryExW
+    ??:0
+KERNELBASE.dll!LoadLibraryExA
+    ??:0
+
+Potential Error #72: LEAK 256 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoreei.dll!CreateConfigStream
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoreei.dll!OnShimDllMainCalled
+    ??:0
+
+Potential Error #73: POSSIBLE LEAK 56 direct bytes + 568 indirect bytes
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+
+Potential Error #74: POSSIBLE LEAK 36 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+ntdll.dll!LdrpHandleTlsData
+    ??:0
+ntdll.dll!LdrpDoPostSnapWork
+    ??:0
+ntdll.dll!LdrpSnapModule
+    ??:0
+ntdll.dll!LdrpProcessWork
+    ??:0
+ntdll.dll!LdrpDrainWorkQueue
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadDll
+    ??:0
+ntdll.dll!LdrLoadDll
+    ??:0
+KERNELBASE.dll!LoadLibraryExW
+    ??:0
+mscoreei.dll!CreateConfigStream
+    ??:0
+mscoreei.dll!CreateConfigStream
+    ??:0
+
+Potential Error #75: POSSIBLE LEAK 264 direct bytes + 264 indirect bytes
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+ntdll.dll!RtlInstallFunctionTableCallback
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!GetPrivateContextsPerfCounters
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+clr.dll!?      
+    ??:0
+
+Potential Error #76: LEAK 512 bytes 
+replace_RtlReAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3818):
+ucrtbase.dll!realloc_base
+    ??:0
+ucrtbase.dll!strtol      
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!o__register_onexit_function
+    ??:0
+msvcp_win.dll!std::num_put<>::do_put
+    ??:0
+msvcp_win.dll!std::num_put<>::do_put
+    ??:0
+ucrtbase.dll!initterm    
+    ??:0
+msvcp_win.dll!std::num_put<>::do_put
+    ??:0
+msvcp_win.dll!std::num_put<>::do_put
+    ??:0
+
+Potential Error #77: LEAK 256 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+ucrtbase.dll!malloc_base 
+    ??:0
+ucrtbase.dll!realloc_base
+    ??:0
+ucrtbase.dll!strtol      
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!o__register_onexit_function
+    ??:0
+gdi32full.dll!GdiDeleteLocalDC
+    ??:0
+gdi32full.dll!GdiDeleteLocalDC
+    ??:0
+ucrtbase.dll!initterm    
+    ??:0
+gdi32full.dll!GdiDeleteLocalDC
+    ??:0
+
+Potential Error #78: LEAK 256 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+ucrtbase_clr0400.dll!malloc_base         
+    ??:0
+ucrtbase_clr0400.dll!realloc_base        
+    ??:0
+ucrtbase_clr0400.dll!recalloc            
+    ??:0
+ucrtbase_clr0400.dll!wcreat              
+    ??:0
+ucrtbase_clr0400.dll!wcreat              
+    ??:0
+ucrtbase_clr0400.dll!register_onexit_function
+    ??:0
+clr.dll!GetCLRFunction
+    ??:0
+clr.dll!GetCLRFunction
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+ucrtbase_clr0400.dll!initterm_e          
+    ??:0
+clr.dll!IsOS   
+    ??:0
+
+Potential Error #79: POSSIBLE LEAK 1056 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+
+Potential Error #80: POSSIBLE LEAK 480 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+
+Potential Error #81: POSSIBLE LEAK 13 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+
+Potential Error #82: POSSIBLE LEAK 24 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+ntdll.dll!LdrpHandleTlsData
+    ??:0
+ntdll.dll!LdrpDoPostSnapWork
+    ??:0
+ntdll.dll!LdrpSnapModule
+    ??:0
+ntdll.dll!LdrpMapAndSnapDependency
+    ??:0
+ntdll.dll!LdrpMapDllWithSectionHandle
+    ??:0
+ntdll.dll!LdrpLoadKnownDll
+    ??:0
+ntdll.dll!LdrpFindOrPrepareLoadingModule
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadDll
+    ??:0
+ntdll.dll!LdrLoadDll
+    ??:0
+KERNELBASE.dll!LoadLibraryExW
+    ??:0
+
+Potential Error #83: LEAK 1024 bytes 
+replace_RtlReAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3818):
+ucrtbase.dll!realloc_base
+    ??:0
+ucrtbase.dll!strtol      
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!o__register_onexit_function
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+ucrtbase.dll!initterm    
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+
+Potential Error #84: POSSIBLE LEAK 48 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpPrepareModuleForExecution
+    ??:0
+
+Potential Error #85: LEAK 256 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+ucrtbase.dll!malloc_base 
+    ??:0
+ucrtbase.dll!realloc_base
+    ??:0
+ucrtbase.dll!strtol      
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!o__register_onexit_function
+    ??:0
+ole32.dll!PropVariantCopy
+    ??:0
+ole32.dll!PropVariantCopy
+    ??:0
+ole32.dll!PropVariantCopy
+    ??:0
+ucrtbase.dll!initterm_e  
+    ??:0
+
+Potential Error #86: POSSIBLE LEAK 472 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+ntdll.dll!TpAllocWait
+    ??:0
+ntdll.dll!RtlpWnfRegisterTpNotification
+    ??:0
+ntdll.dll!RtlpInitializeWnf
+    ??:0
+ntdll.dll!RtlRunOnceExecuteOnce
+    ??:0
+ntdll.dll!RtlpSubscribeWnfStateChangeNotificationInternal
+    ??:0
+ntdll.dll!RtlpFcStartSubscriptionManager
+    ??:0
+ntdll.dll!RtlpFcEnsureSubscriptionManagerStarted
+    ??:0
+ntdll.dll!RtlRegisterFeatureConfigurationChangeNotification
+    ??:0
+combase.dll!Ordinal159 
+    ??:0
+combase.dll!Ordinal159 
+    ??:0
+combase.dll!Ordinal159 
+    ??:0
+
+Potential Error #87: POSSIBLE LEAK 808 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+
+Potential Error #88: POSSIBLE LEAK 160 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+
+Potential Error #89: POSSIBLE LEAK 480 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+
+Potential Error #90: POSSIBLE LEAK 88 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+
+Potential Error #91: POSSIBLE LEAK 2064 direct bytes + 1048 indirect bytes
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!ParseManifest
+    ??:0
+clr.dll!IEE    
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!GetCLRFunction
+    ??:0
+clr.dll!GetCLRFunction
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+
+Potential Error #92: POSSIBLE LEAK 256 direct bytes + 34 indirect bytes
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameSignatureVerification
+    ??:0
+clr.dll!IEE    
+    ??:0
+clr.dll!IEE    
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!GetCLRFunction
+    ??:0
+clr.dll!GetCLRFunction
+    ??:0
+
+Potential Error #93: POSSIBLE LEAK 2064 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!ParseManifest
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+clr.dll!IEE    
+    ??:0
+clr.dll!StrongNameSignatureVerification
+    ??:0
+clr.dll!IEE    
+    ??:0
+clr.dll!IEE    
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+
+Potential Error #94: POSSIBLE LEAK 256 direct bytes + 34 indirect bytes
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameSignatureVerification
+    ??:0
+clr.dll!IEE    
+    ??:0
+clr.dll!IEE    
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!GetCLRFunction
+    ??:0
+clr.dll!GetCLRFunction
+    ??:0
+
+Potential Error #95: POSSIBLE LEAK 2064 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!ParseManifest
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+clr.dll!IEE    
+    ??:0
+clr.dll!StrongNameSignatureVerification
+    ??:0
+clr.dll!IEE    
+    ??:0
+clr.dll!IEE    
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+
+Potential Error #96: POSSIBLE LEAK 112 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameSignatureVerification
+    ??:0
+clr.dll!StrongNameSignatureVerification
+    ??:0
+clr.dll!IEE    
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!GetCLRFunction
+    ??:0
+clr.dll!GetCLRFunction
+    ??:0
+
+Potential Error #97: POSSIBLE LEAK 232 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+RPCRT4.dll!RpcImpersonateClient
+    ??:0
+RPCRT4.dll!RpcEpRegisterW
+    ??:0
+RPCRT4.dll!RpcBindingCreateW
+    ??:0
+ADVAPI32.dll!SaferIdentifyLevel
+    ??:0
+RPCRT4.dll!NdrNonEncapsulatedUnionUnmarshall
+    ??:0
+RPCRT4.dll!NDRSContextMarshall2
+    ??:0
+RPCRT4.dll!Ndr64AsyncServerCallAll
+    ??:0
+RPCRT4.dll!NdrClientCall3
+    ??:0
+ADVAPI32.dll!LsaSetForestTrustInformation2
+    ??:0
+ADVAPI32.dll!LsaLookupPrivilegeValue
+    ??:0
+ADVAPI32.dll!SaferIdentifyLevel
+    ??:0
+
+Potential Error #98: POSSIBLE LEAK 256 direct bytes + 66 indirect bytes
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameSignatureVerification
+    ??:0
+clr.dll!IEE    
+    ??:0
+clr.dll!IEE    
+    ??:0
+clr.dll!StrongNameSignatureVerification
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameSignatureVerification
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+
+Potential Error #99: POSSIBLE LEAK 2064 direct bytes + 1048 indirect bytes
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!ParseManifest
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+clr.dll!IEE    
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+clr.dll!StrongNameSignatureVerification
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameSignatureVerification
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+
+Potential Error #100: POSSIBLE LEAK 13 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+
+Potential Error #101: POSSIBLE LEAK 24 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+ntdll.dll!LdrpHandleTlsData
+    ??:0
+ntdll.dll!LdrpDoPostSnapWork
+    ??:0
+ntdll.dll!LdrpSnapModule
+    ??:0
+ntdll.dll!LdrpProcessWork
+    ??:0
+ntdll.dll!LdrpDrainWorkQueue
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadDll
+    ??:0
+ntdll.dll!LdrLoadDll
+    ??:0
+KERNELBASE.dll!LoadLibraryExW
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+
+Potential Error #102: POSSIBLE LEAK 48 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!CoInitializeEx
+    ??:0
+combase.dll!CoInitializeEx
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+
+Potential Error #103: POSSIBLE LEAK 48 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!CoGetContextToken
+    ??:0
+clr.dll!MetaDataGetDispenser
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!MetaDataGetDispenser
+    ??:0
+clr.dll!LogHelp_LogAssert
+    ??:0
+
+Potential Error #104: POSSIBLE LEAK 16 direct bytes + 100 indirect bytes
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+
+Potential Error #105: POSSIBLE LEAK 28 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+ntdll.dll!LdrpHandleTlsData
+    ??:0
+ntdll.dll!LdrpDoPostSnapWork
+    ??:0
+ntdll.dll!LdrpSnapModule
+    ??:0
+ntdll.dll!LdrpProcessWork
+    ??:0
+ntdll.dll!LdrpDrainWorkQueue
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpFreeLoadContextOfNode
+    ??:0
+ntdll.dll!LdrpGetDelayloadExportDll
+    ??:0
+ntdll.dll!LdrpHandleProtectedDelayload
+    ??:0
+ntdll.dll!LdrResolveDelayLoadedAPI
+    ??:0
+Windows.Storage.dll!CreateSortColumnArray
+    ??:0
+
+Potential Error #106: POSSIBLE LEAK 28 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+ntdll.dll!LdrpHandleTlsData
+    ??:0
+ntdll.dll!LdrpDoPostSnapWork
+    ??:0
+ntdll.dll!LdrpSnapModule
+    ??:0
+ntdll.dll!LdrpProcessWork
+    ??:0
+ntdll.dll!LdrpDrainWorkQueue
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadForwardedDll
+    ??:0
+ntdll.dll!LdrpLoadForwardedDll
+    ??:0
+ntdll.dll!LdrpGetDelayloadExportDll
+    ??:0
+ntdll.dll!LdrpHandleProtectedDelayload
+    ??:0
+ntdll.dll!LdrResolveDelayLoadedAPI
+    ??:0
+
+Potential Error #107: LEAK 2048 bytes 
+replace_RtlReAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3818):
+ucrtbase.dll!realloc_base
+    ??:0
+ucrtbase.dll!strtol      
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!o__register_onexit_function
+    ??:0
+SHELL32.dll!Ordinal184 
+    ??:0
+SHELL32.dll!Ordinal184 
+    ??:0
+ucrtbase.dll!initterm    
+    ??:0
+SHELL32.dll!Ordinal184 
+    ??:0
+SHELL32.dll!Ordinal184 
+    ??:0
+
+Potential Error #108: LEAK 2048 bytes 
+replace_RtlReAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3818):
+ucrtbase.dll!realloc_base
+    ??:0
+ucrtbase.dll!strtol      
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!o__register_onexit_function
+    ??:0
+Windows.Storage.dll!Global_WindowsStorage_csSCN
+    ??:0
+Windows.Storage.dll!Global_WindowsStorage_csSCN
+    ??:0
+ucrtbase.dll!initterm    
+    ??:0
+Windows.Storage.dll!Global_WindowsStorage_csSCN
+    ??:0
+Windows.Storage.dll!Global_WindowsStorage_csSCN
+    ??:0
+
+Potential Error #109: LEAK 256 bytes 
+replace_RtlAllocateHeap
+    D:\a\drmemory\drmemory\common\alloc_replace.c(3772):
+ucrtbase.dll!malloc_base 
+    ??:0
+ucrtbase.dll!realloc_base
+    ??:0
+ucrtbase.dll!strtol      
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!register_onexit_function
+    ??:0
+ucrtbase.dll!o__register_onexit_function
+    ??:0
+profapi.dll!?          
+    ??:0
+profapi.dll!?          
+    ??:0
+ucrtbase.dll!initterm    
+    ??:0
+profapi.dll!?          
+    ??:0
+
+Potential Error #110: HANDLE LEAK: KERNEL handle 0x00000000000000d0 and 0 similar handle(s) were opened but not closed:
+system call NtUserGetProcessWindowStation
+    <system call>
+mscoreei.dll!CLRCreateInstance
+    ??:0
+mscoreei.dll!CLRCreateInstance
+    ??:0
+mscoreei.dll!CLRCreateInstance
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!CLRCreateInstance
+    ??:0
+mscoreei.dll!CLRCreateInstance
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #111: HANDLE LEAK: KERNEL handle 0x0000000000000108 and 0 similar handle(s) were opened but not closed:
+system call NtOpenKey
+    <system call>
+ntdll.dll!RtlpLookupCurDirSetting
+    ??:0
+ntdll.dll!RtlpComputeDllPath
+    ??:0
+ntdll.dll!RtlpGetCachedPath
+    ??:0
+ntdll.dll!LdrpGetDllPath
+    ??:0
+ntdll.dll!LdrGetDllPath
+    ??:0
+KERNELBASE.dll!LoadLibraryExW
+    ??:0
+KERNELBASE.dll!GetFileVersionInfoSizeExW
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #112: HANDLE LEAK: KERNEL handle 0x0000000000000124 and 0 similar handle(s) were opened but not closed:
+system call NtOpenKeyEx
+    <system call>
+KERNELBASE.dll!Wow64NtOpenKey
+    ??:0
+KERNELBASE.dll!OpenLocalMachineInternal
+    ??:0
+KERNELBASE.dll!MapPredefinedHandleInternal
+    ??:0
+KERNELBASE.dll!RegOpenKeyExInternalW
+    ??:0
+KERNELBASE.dll!RegOpenKeyExW 
+    ??:0
+mscoree.dll!CorImageUnloading
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #113: HANDLE LEAK: KERNEL handle 0x0000000000000128 and 0 similar handle(s) were opened but not closed:
+system call NtCreateMutant
+    <system call>
+KERNELBASE.dll!CreateMutexExW
+    ??:0
+mscoreei.dll!CreateConfigStream
+    ??:0
+mscoreei.dll!CreateConfigStream
+    ??:0
+mscoreei.dll!OnShimDllMainCalled
+    ??:0
+mscoreei.dll!OnShimDllMainCalled
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpPrepareModuleForExecution
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadDll
+    ??:0
+ntdll.dll!LdrLoadDll
+    ??:0
+KERNELBASE.dll!LoadLibraryExW
+    ??:0
+mscoree.dll!LockClrVersion
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!Ordinal141 
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #114: HANDLE LEAK: KERNEL handle 0x000000000000012c and 0 similar handle(s) were opened but not closed:
+system call NtOpenKey
+    <system call>
+ntdll.dll!RtlOpenCurrentUser
+    ??:0
+KERNELBASE.dll!OpenCurrentUserInternal
+    ??:0
+KERNELBASE.dll!MapPredefinedHandleInternal
+    ??:0
+KERNELBASE.dll!RegOpenKeyExInternalW
+    ??:0
+KERNELBASE.dll!RegOpenKeyExW 
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!GetProcessExecutableHeap
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!Ordinal24   
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #115: HANDLE LEAK: KERNEL handle 0x000000000000013c and 0 similar handle(s) were opened but not closed:
+system call NtOpenKey
+    <system call>
+ntdll.dll!RtlpOpenBaseImageFileOptionsKeyEx
+    ??:0
+ntdll.dll!RtlpOpenBaseImageFileOptionsKey
+    ??:0
+ntdll.dll!RtlpOpenImageFileOptionsKeyEx
+    ??:0
+ntdll.dll!RtlQueryImageFileExecutionOptions
+    ??:0
+ntdll.dll!LdrQueryImageFileExecutionOptions
+    ??:0
+USER32.dll!TryGetDwordIFEO
+    ??:0
+USER32.dll!InitProcessGdiScaling
+    ??:0
+USER32.dll!_UserClientDllInitialize
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpPrepareModuleForExecution
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadDll
+    ??:0
+ntdll.dll!LdrLoadDll
+    ??:0
+KERNELBASE.dll!LoadLibraryExW
+    ??:0
+mscoreei.dll!CreateConfigStream
+    ??:0
+
+Potential Error #116: HANDLE LEAK: KERNEL handle 0x0000000000000170 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #117: HANDLE LEAK: KERNEL handle 0x0000000000000180 and 0 similar handle(s) were opened but not closed:
+system call NtOpenKeyEx
+    <system call>
+KERNELBASE.dll!Wow64NtOpenKey
+    ??:0
+KERNELBASE.dll!BaseRegOpenKeyInternal
+    ??:0
+KERNELBASE.dll!LocalBaseRegOpenKey
+    ??:0
+KERNELBASE.dll!RegOpenKeyExInternalW
+    ??:0
+KERNELBASE.dll!RegOpenKeyExW 
+    ??:0
+clr.dll!IEE    
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #118: HANDLE LEAK: KERNEL handle 0x0000000000000184 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #119: HANDLE LEAK: KERNEL handle 0x0000000000000188 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #120: HANDLE LEAK: KERNEL handle 0x000000000000019c and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #121: HANDLE LEAK: KERNEL handle 0x00000000000001a0 and 0 similar handle(s) were opened but not closed:
+system call NtCreateSection
+    <system call>
+KERNELBASE.dll!CreateFileMappingNumaW
+    ??:0
+KERNELBASE.dll!CreateFileMappingW
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #122: HANDLE LEAK: KERNEL handle 0x00000000000001a4 and 0 similar handle(s) were opened but not closed:
+system call NtCreateSection
+    <system call>
+KERNELBASE.dll!CreateFileMappingNumaW
+    ??:0
+KERNELBASE.dll!CreateFileMappingW
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #123: HANDLE LEAK: KERNEL handle 0x00000000000001a8 and 0 similar handle(s) were opened but not closed:
+system call NtCreatePrivateNamespace
+    <system call>
+KERNELBASE.dll!CreatePrivateNamespaceW
+    ??:0
+clr.dll!IEE    
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #124: HANDLE LEAK: KERNEL handle 0x00000000000001ac and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #125: HANDLE LEAK: KERNEL handle 0x00000000000001b0 and 0 similar handle(s) were opened but not closed:
+system call NtCreateMutant
+    <system call>
+KERNELBASE.dll!CreateMutexExW
+    ??:0
+KERNELBASE.dll!WerpHeapCreate
+    ??:0
+KERNELBASE.dll!WerpInitPEBStore
+    ??:0
+KERNELBASE.dll!WerpRegisterRuntimeExceptionModule
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #126: HANDLE LEAK: KERNEL handle 0x00000000000001b4 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+ntdll.dll!RtlpWnfRegisterTpNotification
+    ??:0
+ntdll.dll!RtlpInitializeWnf
+    ??:0
+ntdll.dll!RtlRunOnceExecuteOnce
+    ??:0
+ntdll.dll!RtlpSubscribeWnfStateChangeNotificationInternal
+    ??:0
+ntdll.dll!RtlpFcStartSubscriptionManager
+    ??:0
+ntdll.dll!RtlpFcEnsureSubscriptionManagerStarted
+    ??:0
+ntdll.dll!RtlRegisterFeatureConfigurationChangeNotification
+    ??:0
+combase.dll!Ordinal159 
+    ??:0
+combase.dll!Ordinal159 
+    ??:0
+combase.dll!Ordinal159 
+    ??:0
+combase.dll!Ordinal159 
+    ??:0
+combase.dll!Ordinal159 
+    ??:0
+combase.dll!Ordinal159 
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+
+Potential Error #127: HANDLE LEAK: KERNEL handle 0x00000000000001bc and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #128: HANDLE LEAK: KERNEL handle 0x00000000000001c0 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #129: HANDLE LEAK: KERNEL handle 0x00000000000001c4 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #130: HANDLE LEAK: KERNEL handle 0x00000000000001c8 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #131: HANDLE LEAK: KERNEL handle 0x00000000000001cc and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #132: HANDLE LEAK: KERNEL handle 0x00000000000001d0 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #133: HANDLE LEAK: KERNEL handle 0x00000000000001d4 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #134: HANDLE LEAK: KERNEL handle 0x00000000000001d8 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #135: HANDLE LEAK: KERNEL handle 0x00000000000001dc and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #136: HANDLE LEAK: KERNEL handle 0x00000000000001e8 and 0 similar handle(s) were opened but not closed:
+system call NtDuplicateObject
+    <system call>
+KERNELBASE.dll!DuplicateHandle
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #137: HANDLE LEAK: KERNEL handle 0x00000000000001f0 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #138: HANDLE LEAK: KERNEL handle 0x00000000000001f4 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #139: HANDLE LEAK: KERNEL handle 0x0000000000000208 and 0 similar handle(s) were opened but not closed:
+system call NtCreateThreadEx
+    <system call>
+KERNELBASE.dll!CreateRemoteThreadEx
+    ??:0
+KERNEL32.dll!CreateThreadStub
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #140: HANDLE LEAK: KERNEL handle 0x000000000000020c and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #141: HANDLE LEAK: KERNEL handle 0x0000000000000210 and 0 similar handle(s) were opened but not closed:
+system call NtCreateMutant
+    <system call>
+KERNELBASE.dll!CreateMutexExW
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #142: HANDLE LEAK: KERNEL handle 0x0000000000000214 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #143: HANDLE LEAK: KERNEL handle 0x0000000000000218 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #144: HANDLE LEAK: KERNEL handle 0x0000000000000220 and 0 similar handle(s) were opened but not closed:
+system call NtOpenKey
+    <system call>
+KERNEL32.dll!OpenSortIdKey
+    ??:0
+KERNEL32.dll!FindSortId  
+    ??:0
+KERNEL32.dll!InternalSortGetHandle
+    ??:0
+KERNEL32.dll!SortGetHandle
+    ??:0
+KERNELBASE.dll!MakeSortHashNode
+    ??:0
+KERNELBASE.dll!GetSortNode   
+    ??:0
+KERNELBASE.dll!StrCmpW       
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #145: HANDLE LEAK: KERNEL handle 0x0000000000000224 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #146: HANDLE LEAK: KERNEL handle 0x0000000000000228 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #147: HANDLE LEAK: KERNEL handle 0x000000000000022c and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #148: HANDLE LEAK: KERNEL handle 0x0000000000000230 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #149: HANDLE LEAK: KERNEL handle 0x0000000000000234 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #150: HANDLE LEAK: KERNEL handle 0x0000000000000238 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #151: HANDLE LEAK: KERNEL handle 0x000000000000023c and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #152: HANDLE LEAK: KERNEL handle 0x0000000000000240 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #153: HANDLE LEAK: KERNEL handle 0x0000000000000244 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #154: HANDLE LEAK: KERNEL handle 0x0000000000000248 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #155: HANDLE LEAK: KERNEL handle 0x000000000000024c and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #156: HANDLE LEAK: KERNEL handle 0x0000000000000250 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!InitializeFusion
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #157: HANDLE LEAK: KERNEL handle 0x0000000000000254 and 0 similar handle(s) were opened but not closed:
+system call NtOpenEvent
+    <system call>
+KERNELBASE.dll!CreateMemoryResourceNotification
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #158: HANDLE LEAK: KERNEL handle 0x0000000000000258 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #159: HANDLE LEAK: KERNEL handle 0x000000000000025c and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #160: HANDLE LEAK: KERNEL handle 0x0000000000000260 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #161: HANDLE LEAK: KERNEL handle 0x0000000000000264 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #162: HANDLE LEAK: KERNEL handle 0x0000000000000268 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #163: HANDLE LEAK: KERNEL handle 0x000000000000026c and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #164: HANDLE LEAK: KERNEL handle 0x0000000000000270 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #165: HANDLE LEAK: KERNEL handle 0x0000000000000274 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #166: HANDLE LEAK: KERNEL handle 0x0000000000000278 and 0 similar handle(s) were opened but not closed:
+system call NtCreateThreadEx
+    <system call>
+KERNELBASE.dll!CreateRemoteThreadEx
+    ??:0
+KERNEL32.dll!CreateThreadStub
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #167: HANDLE LEAK: KERNEL handle 0x0000000000000298 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+RPCRT4.dll!RpcEpRegisterW
+    ??:0
+RPCRT4.dll!RpcStringBindingParseA
+    ??:0
+RPCRT4.dll!RpcStringBindingParseA
+    ??:0
+RPCRT4.dll!RpcStringBindingParseA
+    ??:0
+RPCRT4.dll!RpcBindingCreateW
+    ??:0
+ADVAPI32.dll!SaferIdentifyLevel
+    ??:0
+RPCRT4.dll!NdrNonEncapsulatedUnionUnmarshall
+    ??:0
+RPCRT4.dll!NDRSContextMarshall2
+    ??:0
+RPCRT4.dll!Ndr64AsyncServerCallAll
+    ??:0
+RPCRT4.dll!NdrClientCall3
+    ??:0
+ADVAPI32.dll!LsaSetForestTrustInformation2
+    ??:0
+ADVAPI32.dll!LsaLookupPrivilegeValue
+    ??:0
+ADVAPI32.dll!SaferIdentifyLevel
+    ??:0
+ADVAPI32.dll!LsaLookupPrivilegeValue
+    ??:0
+ADVAPI32.dll!LsaLookupPrivilegeValue
+    ??:0
+ADVAPI32.dll!ConvertStringSecurityDescriptorToSecurityDescriptorW
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+
+Potential Error #168: HANDLE LEAK: KERNEL handle 0x00000000000002a0 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+RPCRT4.dll!RpcEpRegisterW
+    ??:0
+RPCRT4.dll!RpcEpRegisterW
+    ??:0
+RPCRT4.dll!RpcEpRegisterW
+    ??:0
+RPCRT4.dll!RpcBindingCreateW
+    ??:0
+ADVAPI32.dll!SaferIdentifyLevel
+    ??:0
+RPCRT4.dll!NdrNonEncapsulatedUnionUnmarshall
+    ??:0
+RPCRT4.dll!NDRSContextMarshall2
+    ??:0
+RPCRT4.dll!Ndr64AsyncServerCallAll
+    ??:0
+RPCRT4.dll!NdrClientCall3
+    ??:0
+ADVAPI32.dll!LsaSetForestTrustInformation2
+    ??:0
+ADVAPI32.dll!LsaLookupPrivilegeValue
+    ??:0
+ADVAPI32.dll!SaferIdentifyLevel
+    ??:0
+ADVAPI32.dll!LsaLookupPrivilegeValue
+    ??:0
+ADVAPI32.dll!LsaLookupPrivilegeValue
+    ??:0
+ADVAPI32.dll!ConvertStringSecurityDescriptorToSecurityDescriptorW
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+
+Potential Error #169: HANDLE LEAK: KERNEL handle 0x00000000000002a4 and 0 similar handle(s) were opened but not closed:
+system call NtDuplicateObject
+    <system call>
+KERNELBASE.dll!DuplicateHandle
+    ??:0
+RPCRT4.dll!RpcEpRegisterW
+    ??:0
+RPCRT4.dll!RpcEpRegisterW
+    ??:0
+RPCRT4.dll!RpcBindingCreateW
+    ??:0
+ADVAPI32.dll!SaferIdentifyLevel
+    ??:0
+RPCRT4.dll!NdrNonEncapsulatedUnionUnmarshall
+    ??:0
+RPCRT4.dll!NDRSContextMarshall2
+    ??:0
+RPCRT4.dll!Ndr64AsyncServerCallAll
+    ??:0
+RPCRT4.dll!NdrClientCall3
+    ??:0
+ADVAPI32.dll!LsaSetForestTrustInformation2
+    ??:0
+ADVAPI32.dll!LsaLookupPrivilegeValue
+    ??:0
+ADVAPI32.dll!SaferIdentifyLevel
+    ??:0
+ADVAPI32.dll!LsaLookupPrivilegeValue
+    ??:0
+ADVAPI32.dll!LsaLookupPrivilegeValue
+    ??:0
+ADVAPI32.dll!ConvertStringSecurityDescriptorToSecurityDescriptorW
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+
+Potential Error #170: HANDLE LEAK: KERNEL handle 0x00000000000002a8 and 0 similar handle(s) were opened but not closed:
+system call NtAlpcConnectPort
+    <system call>
+RPCRT4.dll!RpcServerRegisterIf3
+    ??:0
+RPCRT4.dll!RpcBindingFromStringBindingW
+    ??:0
+RPCRT4.dll!RpcBindingFromStringBindingW
+    ??:0
+RPCRT4.dll!RpcStringBindingParseW
+    ??:0
+RPCRT4.dll!RpcBindingBind
+    ??:0
+ADVAPI32.dll!SaferIdentifyLevel
+    ??:0
+RPCRT4.dll!NdrNonEncapsulatedUnionUnmarshall
+    ??:0
+RPCRT4.dll!NDRSContextMarshall2
+    ??:0
+RPCRT4.dll!Ndr64AsyncServerCallAll
+    ??:0
+RPCRT4.dll!NdrClientCall3
+    ??:0
+ADVAPI32.dll!LsaSetForestTrustInformation2
+    ??:0
+ADVAPI32.dll!LsaLookupPrivilegeValue
+    ??:0
+ADVAPI32.dll!SaferIdentifyLevel
+    ??:0
+ADVAPI32.dll!LsaLookupPrivilegeValue
+    ??:0
+ADVAPI32.dll!LsaLookupPrivilegeValue
+    ??:0
+ADVAPI32.dll!ConvertStringSecurityDescriptorToSecurityDescriptorW
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!GetIdentityAuthority
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+
+Potential Error #171: HANDLE LEAK: KERNEL handle 0x00000000000002ac and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #172: HANDLE LEAK: KERNEL handle 0x00000000000002b8 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!CoInitializeEx
+    ??:0
+combase.dll!CoInitializeEx
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #173: HANDLE LEAK: KERNEL handle 0x00000000000002bc and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!CoInitializeEx
+    ??:0
+combase.dll!CoInitializeEx
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #174: HANDLE LEAK: KERNEL handle 0x00000000000002c0 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+combase.dll!SetErrorInfo
+    ??:0
+combase.dll!StringFromGUID2
+    ??:0
+combase.dll!StringFromGUID2
+    ??:0
+combase.dll!CoGetClassObject
+    ??:0
+combase.dll!CoGetClassObject
+    ??:0
+combase.dll!CoInitializeEx
+    ??:0
+combase.dll!CoInitializeEx
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #175: HANDLE LEAK: KERNEL handle 0x00000000000002d4 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+combase.dll!RoGetActivatableClassRegistration
+    ??:0
+combase.dll!CoGetClassObject
+    ??:0
+combase.dll!CoInitializeEx
+    ??:0
+combase.dll!CoInitializeEx
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #176: HANDLE LEAK: KERNEL handle 0x00000000000002d8 and 0 similar handle(s) were opened but not closed:
+system call NtOpenKeyEx
+    <system call>
+KERNELBASE.dll!Wow64NtOpenKey
+    ??:0
+KERNELBASE.dll!BaseRegOpenKeyInternal
+    ??:0
+KERNELBASE.dll!LocalBaseRegOpenKey
+    ??:0
+KERNELBASE.dll!RegOpenKeyExInternalW
+    ??:0
+KERNELBASE.dll!RegOpenKeyExW 
+    ??:0
+combase.dll!HSTRING_UserUnmarshal
+    ??:0
+combase.dll!RoOriginateErrorW
+    ??:0
+combase.dll!RoOriginateErrorW
+    ??:0
+combase.dll!SetErrorInfo
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpPrepareModuleForExecution
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadDll
+    ??:0
+
+Potential Error #177: HANDLE LEAK: KERNEL handle 0x00000000000002dc and 0 similar handle(s) were opened but not closed:
+system call NtOpenKeyEx
+    <system call>
+KERNELBASE.dll!Wow64NtOpenKey
+    ??:0
+KERNELBASE.dll!BaseRegOpenKeyInternal
+    ??:0
+KERNELBASE.dll!LocalBaseRegOpenKey
+    ??:0
+KERNELBASE.dll!RegOpenKeyExInternalW
+    ??:0
+KERNELBASE.dll!RegOpenKeyExW 
+    ??:0
+combase.dll!RoOriginateErrorW
+    ??:0
+combase.dll!RoOriginateErrorW
+    ??:0
+combase.dll!SetErrorInfo
+    ??:0
+combase.dll!HSTRING_UserUnmarshal
+    ??:0
+combase.dll!HSTRING_UserUnmarshal
+    ??:0
+combase.dll!RoOriginateErrorW
+    ??:0
+combase.dll!RoOriginateErrorW
+    ??:0
+combase.dll!SetErrorInfo
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+Note: handles created with the same callstack are closed here:
+           system call NtClose
+    <system call>
+           KERNELBASE.dll!RegCloseKey   
+    ??:0
+           combase.dll!HSTRING_UserUnmarshal
+    ??:0
+           combase.dll!CoQueryProxyBlanket
+    ??:0
+           ucrtbase.dll!execute_onexit_table
+    ??:0
+           ucrtbase.dll!execute_onexit_table
+    ??:0
+           ucrtbase.dll!execute_onexit_table
+    ??:0
+           ucrtbase.dll!o_atoi      
+    ??:0
+           ntdll.dll!LdrpCallInitRoutine
+    ??:0
+           ntdll.dll!LdrpProcessDetachNode
+    ??:0
+           ntdll.dll!LdrpProcessDetachNode
+    ??:0
+           ntdll.dll!LdrpUnloadNode
+    ??:0
+           ntdll.dll!LdrpDecrementModuleLoadCountEx
+    ??:0
+           ntdll.dll!LdrUnloadDll
+    ??:0
+           KERNELBASE.dll!FreeLibrary   
+    ??:0
+           clr.dll!GetIdentityAuthority
+    ??:0
+           clr.dll!GetIdentityAuthority
+    ??:0
+           clr.dll!PreBindAssemblyEx
+    ??:0
+           clr.dll!GetCLRFunction
+    ??:0
+           clr.dll!GetCLRFunction
+    ??:0
+
+Potential Error #178: HANDLE LEAK: KERNEL handle 0x00000000000002e0 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+combase.dll!SetErrorInfo
+    ??:0
+combase.dll!HSTRING_UserUnmarshal
+    ??:0
+combase.dll!HSTRING_UserUnmarshal
+    ??:0
+combase.dll!RoOriginateErrorW
+    ??:0
+combase.dll!RoOriginateErrorW
+    ??:0
+combase.dll!SetErrorInfo
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpPrepareModuleForExecution
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadDll
+    ??:0
+ntdll.dll!LdrLoadDll
+    ??:0
+KERNELBASE.dll!LoadLibraryExW
+    ??:0
+
+Potential Error #179: HANDLE LEAK: KERNEL handle 0x00000000000002e4 and 0 similar handle(s) were opened but not closed:
+system call NtOpenKeyEx
+    <system call>
+KERNELBASE.dll!Wow64NtOpenKey
+    ??:0
+KERNELBASE.dll!BaseRegOpenKeyInternal
+    ??:0
+KERNELBASE.dll!LocalBaseRegOpenKey
+    ??:0
+KERNELBASE.dll!RegOpenKeyExInternalW
+    ??:0
+KERNELBASE.dll!RegOpenKeyExW 
+    ??:0
+combase.dll!RoOriginateErrorW
+    ??:0
+combase.dll!RoOriginateErrorW
+    ??:0
+combase.dll!SetErrorInfo
+    ??:0
+combase.dll!HSTRING_UserUnmarshal
+    ??:0
+combase.dll!DllGetActivationFactory
+    ??:0
+combase.dll!RoOriginateErrorW
+    ??:0
+combase.dll!RoOriginateErrorW
+    ??:0
+combase.dll!SetErrorInfo
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+Note: handles created with the same callstack are closed here:
+           system call NtClose
+    <system call>
+           KERNELBASE.dll!RegCloseKey   
+    ??:0
+           combase.dll!HSTRING_UserUnmarshal
+    ??:0
+           combase.dll!CoQueryProxyBlanket
+    ??:0
+           ucrtbase.dll!execute_onexit_table
+    ??:0
+           ucrtbase.dll!execute_onexit_table
+    ??:0
+           ucrtbase.dll!execute_onexit_table
+    ??:0
+           ucrtbase.dll!o_atoi      
+    ??:0
+           ntdll.dll!LdrpCallInitRoutine
+    ??:0
+           ntdll.dll!LdrpProcessDetachNode
+    ??:0
+           ntdll.dll!LdrpProcessDetachNode
+    ??:0
+           ntdll.dll!LdrpUnloadNode
+    ??:0
+           ntdll.dll!LdrpDecrementModuleLoadCountEx
+    ??:0
+           ntdll.dll!LdrUnloadDll
+    ??:0
+           KERNELBASE.dll!FreeLibrary   
+    ??:0
+           clr.dll!GetIdentityAuthority
+    ??:0
+           clr.dll!GetIdentityAuthority
+    ??:0
+           clr.dll!PreBindAssemblyEx
+    ??:0
+           clr.dll!GetCLRFunction
+    ??:0
+           clr.dll!GetCLRFunction
+    ??:0
+
+Potential Error #180: HANDLE LEAK: KERNEL handle 0x00000000000002e8 and 0 similar handle(s) were opened but not closed:
+system call NtOpenKeyEx
+    <system call>
+KERNELBASE.dll!Wow64NtOpenKey
+    ??:0
+KERNELBASE.dll!BaseRegOpenKeyInternal
+    ??:0
+KERNELBASE.dll!LocalBaseRegOpenKey
+    ??:0
+KERNELBASE.dll!RegOpenKeyExInternalW
+    ??:0
+KERNELBASE.dll!RegOpenKeyExW 
+    ??:0
+combase.dll!Ordinal167 
+    ??:0
+combase.dll!Ordinal167 
+    ??:0
+combase.dll!DllGetActivationFactory
+    ??:0
+combase.dll!RoOriginateErrorW
+    ??:0
+combase.dll!RoOriginateErrorW
+    ??:0
+combase.dll!SetErrorInfo
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpPrepareModuleForExecution
+    ??:0
+
+Potential Error #181: HANDLE LEAK: KERNEL handle 0x00000000000002ec and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+combase.dll!SetErrorInfo
+    ??:0
+combase.dll!HSTRING_UserUnmarshal
+    ??:0
+combase.dll!DllGetActivationFactory
+    ??:0
+combase.dll!RoOriginateErrorW
+    ??:0
+combase.dll!RoOriginateErrorW
+    ??:0
+combase.dll!SetErrorInfo
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpPrepareModuleForExecution
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadDll
+    ??:0
+ntdll.dll!LdrLoadDll
+    ??:0
+KERNELBASE.dll!LoadLibraryExW
+    ??:0
+
+Potential Error #182: HANDLE LEAK: KERNEL handle 0x00000000000002fc and 2 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpPrepareModuleForExecution
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadDll
+    ??:0
+ntdll.dll!LdrLoadDll
+    ??:0
+KERNELBASE.dll!LoadLibraryExW
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+
+Potential Error #183: HANDLE LEAK: KERNEL handle 0x0000000000000300 and 2 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+combase.dll!InternalDoATClassCreate
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpPrepareModuleForExecution
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadDll
+    ??:0
+ntdll.dll!LdrLoadDll
+    ??:0
+KERNELBASE.dll!LoadLibraryExW
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+
+Potential Error #184: HANDLE LEAK: KERNEL handle 0x0000000000000330 and 0 similar handle(s) were opened but not closed:
+system call NtOpenFile
+    <system call>
+bcryptPrimitives.dll!GetSecretAgreementInterface
+    ??:0
+bcryptPrimitives.dll!GetSecretAgreementInterface
+    ??:0
+bcryptPrimitives.dll!ProcessPrng         
+    ??:0
+bcryptPrimitives.dll!ProcessPrng         
+    ??:0
+bcryptPrimitives.dll!GetKeyDerivationInterface
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpPrepareModuleForExecution
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadForwardedDll
+    ??:0
+ntdll.dll!LdrpLoadForwardedDll
+    ??:0
+ntdll.dll!LdrpGetDelayloadExportDll
+    ??:0
+ntdll.dll!LdrpHandleProtectedDelayload
+    ??:0
+ntdll.dll!LdrResolveDelayLoadedAPI
+    ??:0
+RPCRT4.dll!RpcErrorGetNextRecord
+    ??:0
+RPCRT4.dll!I_RpcServerSetAddressChangeFn
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+
+Potential Error #185: HANDLE LEAK: KERNEL handle 0x0000000000000334 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+combase.dll!SetErrorInfo
+    ??:0
+combase.dll!StringFromGUID2
+    ??:0
+combase.dll!StringFromGUID2
+    ??:0
+combase.dll!RoGetActivatableClassRegistration
+    ??:0
+combase.dll!CoGetClassObject
+    ??:0
+combase.dll!CoInitializeEx
+    ??:0
+combase.dll!CoInitializeEx
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!SetRuntimeInfo
+    ??:0
+clr.dll!CorExeMain
+    ??:0
+mscoreei.dll!CorExeMain  
+    ??:0
+mscoree.dll!CorExeMain 
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #186: HANDLE LEAK: KERNEL handle 0x0000000000000338 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!CoGetContextToken
+    ??:0
+clr.dll!MetaDataGetDispenser
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!MetaDataGetDispenser
+    ??:0
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #187: HANDLE LEAK: KERNEL handle 0x000000000000033c and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!InternalTlsAllocData
+    ??:0
+combase.dll!CoGetContextToken
+    ??:0
+clr.dll!MetaDataGetDispenser
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!MetaDataGetDispenser
+    ??:0
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!PreBindAssemblyEx
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+KERNEL32.dll!BaseThreadInitThunk
+    ??:0
+
+Potential Error #188: HANDLE LEAK: KERNEL handle 0x0000000000000340 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+clr.dll!GetMetaDataPublicInterfaceFromInternal
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+clr.dll!StrongNameSignatureVerification
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+clr.dll!MetaDataGetDispenser
+    ??:0
+clr.dll!MetaDataGetDispenser
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+
+Potential Error #189: HANDLE LEAK: KERNEL handle 0x0000000000000344 and 0 similar handle(s) were opened but not closed:
+system call NtOpenKeyEx
+    <system call>
+KERNELBASE.dll!Wow64NtOpenKey
+    ??:0
+KERNELBASE.dll!BaseRegOpenKeyInternal
+    ??:0
+KERNELBASE.dll!LocalBaseRegOpenKey
+    ??:0
+KERNELBASE.dll!RegOpenKeyExInternalW
+    ??:0
+KERNELBASE.dll!RegOpenKeyExW 
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+
+Potential Error #190: HANDLE LEAK: KERNEL handle 0x0000000000000348 and 0 similar handle(s) were opened but not closed:
+system call NtCreateFile
+    <system call>
+KERNELBASE.dll!CreateFileInternal
+    ??:0
+KERNELBASE.dll!CreateFileW   
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!GetMetaDataInternalInterface
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!DllUnregisterServerInternal
+    ??:0
+
+Potential Error #191: HANDLE LEAK: KERNEL handle 0x000000000000034c and 0 similar handle(s) were opened but not closed:
+system call NtCreateFile
+    <system call>
+KERNELBASE.dll!CreateFileInternal
+    ??:0
+KERNELBASE.dll!CreateFileW   
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+
+Potential Error #192: HANDLE LEAK: KERNEL handle 0x0000000000000350 and 0 similar handle(s) were opened but not closed:
+system call NtCreateSemaphore
+    <system call>
+ntdll.dll!RtlInitializeResource
+    ??:0
+SHELL32.dll!Ordinal613 
+    ??:0
+ucrtbase.dll!initterm    
+    ??:0
+SHELL32.dll!Ordinal184 
+    ??:0
+SHELL32.dll!Ordinal184 
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpPrepareModuleForExecution
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadDll
+    ??:0
+ntdll.dll!LdrLoadDll
+    ??:0
+KERNELBASE.dll!LoadLibraryExW
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!GetPrivateContextsPerfCounters
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+
+Potential Error #193: HANDLE LEAK: KERNEL handle 0x0000000000000354 and 0 similar handle(s) were opened but not closed:
+system call NtCreateSection
+    <system call>
+KERNELBASE.dll!CreateFileMappingNumaW
+    ??:0
+KERNELBASE.dll!CreateFileMappingW
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+
+Potential Error #194: HANDLE LEAK: KERNEL handle 0x0000000000000368 and 0 similar handle(s) were opened but not closed:
+system call NtCreateSemaphore
+    <system call>
+ntdll.dll!RtlInitializeResource
+    ??:0
+SHELL32.dll!Ordinal613 
+    ??:0
+ucrtbase.dll!initterm    
+    ??:0
+SHELL32.dll!Ordinal184 
+    ??:0
+SHELL32.dll!Ordinal184 
+    ??:0
+ntdll.dll!LdrpCallInitRoutine
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeNode
+    ??:0
+ntdll.dll!LdrpInitializeGraphRecurse
+    ??:0
+ntdll.dll!LdrpPrepareModuleForExecution
+    ??:0
+ntdll.dll!LdrpLoadDllInternal
+    ??:0
+ntdll.dll!LdrpLoadDll
+    ??:0
+ntdll.dll!LdrLoadDll
+    ??:0
+KERNELBASE.dll!LoadLibraryExW
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+clr.dll!GetPrivateContextsPerfCounters
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+
+Potential Error #195: HANDLE LEAK: KERNEL handle 0x00000000000003d4 and 0 similar handle(s) were opened but not closed:
+system call NtOpenSection
+    <system call>
+KERNELBASE.dll!OpenFileMappingW
+    ??:0
+SHCORE.dll!SHGetValueW
+    ??:0
+SHCORE.dll!SHGetValueW
+    ??:0
+Windows.Storage.dll!SHGetKnownFolderIDList_Internal
+    ??:0
+Windows.Storage.dll!SHGetKnownFolderIDList_Internal
+    ??:0
+Windows.Storage.dll!SHGetFolderPathW   
+    ??:0
+clr.dll!CreateApplicationContext
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!CreateAssemblyNameObject
+    ??:0
+clr.dll!DllCanUnloadNowInternal
+    ??:0
+clr.dll!StrongNameTokenFromPublicKey
+    ??:0
+
+Potential Error #196: HANDLE LEAK: KERNEL handle 0x00000000000003f4 and 0 similar handle(s) were opened but not closed:
+system call NtOpenFile
+    <system call>
+ntdll.dll!LdrpMapResourceFile
+    ??:0
+ntdll.dll!LdrMapAndVerifyResourceFile
+    ??:0
+ntdll.dll!LdrLoadAlternateResourceModuleEx
+    ??:0
+ntdll.dll!LdrpLoadResourceFromAlternativeModule
+    ??:0
+ntdll.dll!LdrpSearchResourceSection_U
+    ??:0
+ntdll.dll!RtlFindMessage
+    ??:0
+KERNELBASE.dll!BaseDllFormatMessage
+    ??:0
+KERNELBASE.dll!FormatMessageW
+    ??:0
+clr.dll!MetaDataGetDispenser
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+mscorlib.dll!?           
+    ??:0
+mscorlib.dll!?           
+    ??:0
+mscorlib.dll!?           
+    ??:0
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!LogHelp_LogAssert
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!MetaDataGetDispenser
+    ??:0
+
+Potential Error #197: HANDLE LEAK: KERNEL handle 0x00000000000003f8 and 0 similar handle(s) were opened but not closed:
+system call NtCreateEvent
+    <system call>
+KERNELBASE.dll!CreateEventW  
+    ??:0
+RPCRT4.dll!RpcEpRegisterW
+    ??:0
+RPCRT4.dll!RpcEpRegisterW
+    ??:0
+RPCRT4.dll!RpcEpRegisterW
+    ??:0
+RPCRT4.dll!RpcBindingFromStringBindingW
+    ??:0
+ADVAPI32.dll!IsTextUnicode
+    ??:0
+RPCRT4.dll!NdrNonEncapsulatedUnionUnmarshall
+    ??:0
+RPCRT4.dll!NDRSContextMarshall2
+    ??:0
+RPCRT4.dll!Ndr64AsyncServerCallAll
+    ??:0
+RPCRT4.dll!NdrClientCall3
+    ??:0
+ADVAPI32.dll!ElfRegisterEventSourceW
+    ??:0
+ADVAPI32.dll!RegisterEventSourceW
+    ??:0
+clr.dll!PostErrorVA
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+
+Potential Error #198: HANDLE LEAK: KERNEL handle 0x00000000000003fc and 0 similar handle(s) were opened but not closed:
+system call NtDuplicateObject
+    <system call>
+KERNELBASE.dll!DuplicateHandle
+    ??:0
+RPCRT4.dll!RpcEpRegisterW
+    ??:0
+RPCRT4.dll!RpcEpRegisterW
+    ??:0
+RPCRT4.dll!RpcBindingFromStringBindingW
+    ??:0
+ADVAPI32.dll!IsTextUnicode
+    ??:0
+RPCRT4.dll!NdrNonEncapsulatedUnionUnmarshall
+    ??:0
+RPCRT4.dll!NDRSContextMarshall2
+    ??:0
+RPCRT4.dll!Ndr64AsyncServerCallAll
+    ??:0
+RPCRT4.dll!NdrClientCall3
+    ??:0
+ADVAPI32.dll!ElfRegisterEventSourceW
+    ??:0
+ADVAPI32.dll!RegisterEventSourceW
+    ??:0
+clr.dll!PostErrorVA
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!TranslateSecurityAttributes
+    ??:0
+clr.dll!ParseManifest
+    ??:0
+VCRUNTIME140_CLR0400.dll!_C_specific_handler     
+    ??:0
+ntdll.dll!RtlpExecuteHandlerForException
+    ??:0
+
+DUPLICATE POTENTIAL ERROR COUNTS:
+	Potential Error #   5:      3
+	Potential Error #  10:      3
+	Potential Error #  20:      3
+	Potential Error #  21:      6
+	Potential Error #  22:      8
+	Potential Error #  23:      8
+	Potential Error #  26:      2
+	Potential Error #  27:      3
+	Potential Error #  28:      3
+	Potential Error #  31:     45
+	Potential Error #  32:     45
+	Potential Error #  33:     21
+	Potential Error #  34:      6
+	Potential Error #  35:      2
+	Potential Error #  36:     15
+	Potential Error #  37:      3
+	Potential Error #  39:     12
+	Potential Error #  40:     45
+	Potential Error #  42:     12
+	Potential Error #  43:     45
+	Potential Error #  44:      6
+	Potential Error #  46:      6
+	Potential Error #  47:      2
+	Potential Error #  48:      2
+	Potential Error #  49:      2
+	Potential Error #  50:      6
+	Potential Error #  55:      2
+	Potential Error #  56:      3
+	Potential Error #  57:      2
+	Potential Error #  58:      3
+	Potential Error #  59:      2
+	Potential Error #  60:      3
+	Potential Error #  62:      2
+	Potential Error #  63:      3
+	Potential Error #  82:      6
+	Potential Error #  84:      3
+	Potential Error # 100:      2
+	Potential Error # 101:      3
+	Potential Error # 104:      2
+	Potential Error # 105:      3
+	Potential Error # 106:      3
+	Potential Error # 182:      3
+	Potential Error # 183:      3
+
+POTENTIAL ERRORS FOUND:
+      1 unique,     1 total potential unaddressable access(es)
+     68 unique,   368 total potential uninitialized access(es)
+      0 unique,     0 total potential invalid heap argument(s)
+      0 unique,     0 total potential GDI usage error(s)
+     89 unique,    93 total potential handle leak(s)
+      0 unique,     0 total potential warning(s)
+      9 unique,     9 total,   6912 byte(s) of potential leak(s)
+     31 unique,    46 total,  17325 byte(s) of potential possible leak(s)
+Details: D:\faks\master\verifikacija\projekat\git\2023_Analysis_calculator\Dr Memory\drmemory_report\DrMemory-CalculatorApp.exe.17480.000\potential_errors.txt

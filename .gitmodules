@@ -1,0 +1,6 @@
+[submodule "calculator"]
+	path = calculator
+	url = https://github.com/microsoft/calculator.git
+[submodule "cppcheck/cppcheck"]
+	path = cppcheck/cppcheck
+	url = https://github.com/danmar/cppcheck.git

@@ -1,0 +1,30 @@
+# File for suppressing errors found in pid 17480: "CalculatorApp.exe"
+
+# Suppression for Error #1
+UNINITIALIZED READ
+name=Error #1 (update to meaningful name)
+ntdll.dll!RcContinueExit
+ntdll.dll!RtlUnwindEx
+ntdll.dll!RtlUserThreadStart
+
+## Mod+offs-style suppression for Error #1:
+UNINITIALIZED READ
+name=Error #1 (update to meaningful name)
+<ntdll.dll+0xa15f0>
+<ntdll.dll+0x30b66>
+<ntdll.dll+0x526a1>
+
+# Suppression for Error #2
+UNINITIALIZED READ
+name=Error #2 (update to meaningful name)
+ntdll.dll!RcContinueExit
+ntdll.dll!RtlUnwindEx
+ntdll.dll!RtlUserThreadStart
+
+## Mod+offs-style suppression for Error #2:
+UNINITIALIZED READ
+name=Error #2 (update to meaningful name)
+<ntdll.dll+0xa1709>
+<ntdll.dll+0x30b66>
+<ntdll.dll+0x526a1>
+
