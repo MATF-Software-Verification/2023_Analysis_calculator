@@ -10,7 +10,20 @@ Link do projekta, grana i heš kod commita: [Projekat](https://github.com/micros
 ## Alati i uputstvo za pokretanje
 
 ### CppCheck
-U folderu cppcheck postoji skripta koja build-uje submodul cppcheck, a potom ga pokrece i rezultat cuva u report.xml
+U folderu cppcheck postoji skripta koja build-uje submodul cppcheck, a potom ga pokreće i rezultat cuva u report.xml
+
+### Dr Memory
+Potrebno je instalirati [Dr Memory](https://drmemory.org/page_download.html) i u skripti postaviti pravilan path na drmemory.exe fajl. Skripta generise izlaz u drmemory_report folderu.  
+
+### Build Insight 
+Interni alat u Visual Studiu. Nakon selektovanja rešenja izabrati opciju: "Run Build Insight on Build Solution".
+
+### Code Metrics
+Interni alat u Visual Studiu. Izabrati odgovarajuci projekat u resenju, Calculator (Universal Windows), i potom izabrati opciju: "Analyze and Code Cleanup/Calculate Code Metrics" 
+
+### Test Coverage
+Pokrenuti skriptu "Test Coverage/script.bat". (Ne radi zbog problema build-ivanja CalculatorUnitTests projekta)
+
 
 ## Zaključak
-
+Ovu aplikaciju dnevno koriste milioni ljudi, funkcionalna je i sa strane korisnika nema nikakvih problema. Međutim, analizom koda mogu se uočiti mesta gde je moguće poboljšanje kako bi se ispratili svi standardi.
