@@ -1,7 +1,7 @@
 # 2023_Analysis_calculator
 
 ## Podaci o autoru i projektu
-Autor: Đprđe Petrović 1036/2023
+Autor: Đorđe Petrović 1036/2023
 
 Projekat: Windows Calculator je moderna Windows aplikacija napisana u C++ i C# koja dolazi instalirana sa Windows-om.
 
